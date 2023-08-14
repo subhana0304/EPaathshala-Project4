@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math || Geometry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-center fs-2 my-3">Hello Geometry World</h1>
+
+    <div class="container shadow-sm p-3 bg-body-tertiary rounded my-5">
+        <h3 class="fs-4 text-center">Result Area</h3>
+        <div class="d-flex justify-content-center">
+            <ol id="ol">
+            
+            </ol>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+
+            <div class="col  mb-5">
+                <div class="card h-100 text-center shadow-sm p-3 bg-body-tertiary rounded me-2">
+                    <img class="p-3 img-fluid" src="images/triangle.png" alt="">
+                <div class="my-3">
+                    <h5>Triangle</h5>
+                    <p>Area (A) = 0.5 * <span id="triangleBhumi">b</span> * <span id="triangleUcchota">h</span></p>
+                    <div class="my-3">
+                        <input class="w-25 me-2" type="number" name="" id="triInpuBhu"> <span>cm</span>
+                        <input class="w-25 me-2" type="number" name="" id="triInpuUch"> <span>cm</span>
+                    </div>
+                    <button id="triangleButton" class="btn btn-danger">Calculate</button>
+                </div>
+                </div>
+            </div>
+            <div class="col  mb-5">
+                <div class="card h-100 text-center shadow-sm p-3 bg-body-tertiary rounded ms-2">
+                    <img class="p-3 img-fluid" src="images/parallelogram.png" alt="">
+                <div class="my-3">
+                    <h5>Parallelogram</h5>
+                    <p>Area (A) =<span id="paraBhumi">b</span> * <span id="paraUcchota">h</span></p>
+                    <div class="my-3">
+                        <input class="w-25 me-2" type="number" name="" id="peraInpuBhu"> <span>cm</span>
+                        <input class="w-25 me-2" type="number" name="" id="peraInpuUch"> <span>cm</span>
+                    </div>
+                    <button id="parallelogramButton" class="btn btn-danger">Calculate</button>
+                </div>
+                </div>
+            </div>
+            <div class="col  mb-5">
+                <div class="card h-100 text-center shadow-sm p-3 bg-body-tertiary rounded me-2">
+                    <img class="p-3 img-fluid" src="images/rhombus.png" alt="">
+                <div class="my-3">
+                    <h5>Rhombus</h5>
+                    <p>Area (A) = 0.5 * <span id="d1">d1</span> * <span id="d2">d2</span></p>
+                    <div class="my-3">
+                        <input class="w-25 me-2" type="number" name="" id="rhombusInpuBhu"> <span>cm</span>
+                        <input class="w-25 me-2" type="number" name="" id="rhombusInpuUch"> <span>cm</span>
+                    </div>
+                    <button id="rhombusButton" class="btn btn-danger">Calculate</button>
+                </div>
+                </div>
+            </div>
+            <div class="col  mb-5">
+                <div class=" card h-100 text-center shadow-sm p-3 bg-body-tertiary rounded ms-2">
+                    <img class="p-3 img-fluid" src="images/pentagon.png" alt="">
+                <div class="my-3">
+                    <h5>Pentagon</h5>
+                    <p>Area (A) = 0.5 * <span id="pentaP">p</span> * <span id="pentaB">b</span></p>
+                    <div class="my-3">
+                        <input class="w-25 me-2" type="number" name="" id="penInputBhu"> <span>cm</span>
+                        <input class="w-25 me-2" type="number" name="" id="penInptUch"> <span>cm</span>
+                    </div>
+                    <button id="pentagonButton" class="btn btn-danger">Calculate</button>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
